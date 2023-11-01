@@ -7,8 +7,6 @@
   <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>VR-NeRF: High-Fidelity Virtualized Walkable Spaces</title>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -28,14 +26,12 @@
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
   <link rel="icon" href="./static/images/vr-glasses.png">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="./static/js/fontawesome.all.min.js"></script>
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
@@ -50,37 +46,6 @@
       <span aria-hidden="true"></span>
     </a>
   </div>
-
-  <!-- <div class="navbar-menu">
-    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
-      </a> -->
-
-      <!-- <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
-        </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://hypernerf.github.io">
-            HyperNeRF
-          </a>
-          <a class="navbar-item" href="https://nerfies.github.io">
-            Nerfies
-          </a>
-          <a class="navbar-item" href="https://latentfusion.github.io">
-            LatentFusion
-          </a>
-          <a class="navbar-item" href="https://photoshape.github.io">
-            PhotoShape
-          </a>
-        </div>
-      </div> -->
-    <!-- </div> -->
-
-  <!-- </div> -->
 </nav>
 
 
@@ -173,19 +138,11 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      
-      <!-- <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4" type="video/mp4">
-      </video> -->
-
-      <!-- <img src="./static/images/teaser.png"> -->
       <img src="./static/images/poster.jpeg"> 
       
       <h2 class="subtitle has-text-centered">
         VR-NeRF brings high-fidelity walkable spaces to real-time virtual reality. 
         Our “Eyeful Tower” multi-camera rig captures spaces with high image resolution and dynamic range that approach the limits of the human visual system. 
-<!-- We train high-fidelity neural radiance fields that exploit the high-dynamic range nature of our captured scenes and provide level-of-detail mip-mapping for efficient anti-aliasing.  -->
-<!-- Our rendering backend leverages our accurate occupancy grid and a dynamic multi-GPU work distribution scheme to achieve real-time frame rates on dual 2K×2K eyebuffers for a immersive VR experience. -->
       </h2>
     </div>
   </div>
@@ -233,7 +190,7 @@
         </div>
         <div class="item item-office1">
           <video poster="" id="office1" autoplay controls muted loop playsinline height="100%">
-            <source src="./videos/office1.mp4" type="video/mp4">
+            <source src="./videos/office1_h265.mp4" type="video/mp4">
           </video>
         </div>
       </div>
@@ -244,7 +201,6 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
@@ -269,7 +225,7 @@
         </div>
       </div>
     </div>
-    <!-- Paper video. -->
+
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Data Capture</h2>
@@ -278,11 +234,6 @@
           <source src="./videos/capture.mov" type="video/mp4">
           <!-- <source src="./videos/VR-NeRF-with-voiceover.mp4" type="video/mp4"> -->
         </video>
-        
-        <!-- <iframe width="420" height="315" src="https://www.youtube.com/watch?v=M7Zv3mXhQc0"> </iframe> -->
-        <!-- <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div> -->
       </div>
     </div>
     <!--/ Paper video. -->
@@ -308,15 +259,6 @@
 
 <footer class="footer">
   <div class="container">
-    <!-- <div class="content has-text-centered">
-      <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
-        <i class="fas fa-file-pdf"></i>
-      </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
-        <i class="fab fa-github"></i>
-      </a>
-    </div> -->
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
