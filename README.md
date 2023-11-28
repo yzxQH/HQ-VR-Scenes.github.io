@@ -1,1 +1,1 @@
-# vr-nerf.github.io
+# HQ-VR-Scenes.github.io
