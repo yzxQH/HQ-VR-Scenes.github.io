@@ -183,11 +183,9 @@
         <div class="content has-text-justified">
 
           <p>
-            We present an end-to-end system for the high-fidelity capture, model reconstruction, and real-time rendering of walkable spaces in virtual reality using neural radiance fields.
-            To this end, we designed and built a custom multi-camera rig to densely capture walkable spaces in high fidelity and with multi-view high dynamic range images in unprecedented quality and density.
-            We extend instant neural graphics primitives with a novel perceptual color space for learning accurate HDR appearance, and an efficient mip-mapping mechanism for level-of-detail rendering with anti-aliasing, while carefully optimizing the trade-off between quality and speed.
-            Our multi-GPU renderer enables high-fidelity volume rendering of our neural radiance field model at the full VR resolution of dual 2K×2K at 36 Hz on our custom demo machine.
-            We demonstrate the quality of our results on our challenging high-fidelity datasets, and compare our method and datasets to existing baselines.
+            We have developed and built a custom multi-camera capture system, which provides a series of high-quality and sufficiently dense scene images and videos for various scenarios. Our aim is to contribute to the development of popular 3D scene reconstruction algorithms such as IBRnet, NeRF, and 3D Gaussian splatting. 
+            We utilized a total of 40 GoPro 10 cameras, capturing images of 4k resolution. The number of photos captured for each scene is no less than 1000. It is worth noting that our system is capable of efficiently capturing large outdoor scenes. Addressing the current lack of large-scale scene datasets, we made efforts to include elements such as sky, reflections, and dynamic objects that are of interest to researchers in the field of 3D reconstruction during the data capture process. 
+            Finally, we validated the effectiveness of our provided dataset on three popular algorithms and integrated it with the Unity engine, demonstrating the potential of utilizing high-quality captured scenes to enhance the realism of virtual reality (VR) and create feasible interactive spaces.
           </p>
 
         </div>
